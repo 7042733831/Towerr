@@ -1,0 +1,31 @@
+package com.towerhobbies.HomePage;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import com.towerhobbies.TestBase.TestBase;
+import com.towerhobbies.TestBase.abcd;
+
+public class HomePage 
+{
+	TestBase test = new TestBase();
+	@Test
+	public void HomePageLayout()
+	{
+		test.getBrowser("chrome");
+		test.driver.get("https://www-dev.towerhobbies.de");
+		test.driver.manage().window().maximize();
+		test.Register();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,19 @@
+package com.towerhobbies.HomePage;
+
+import org.testng.annotations.Test;
+
+import com.towerhobbies.TestBase.TestBase;
+
+public class HomePage extends TestBase
+{
+	
+	@Test
+	public void HomePageLayout()
+	{
+		getBrowser("Chrome");
+		driver.get("https://www-dev.towerhobbies.de");
+		
+	}
+	
+
+}

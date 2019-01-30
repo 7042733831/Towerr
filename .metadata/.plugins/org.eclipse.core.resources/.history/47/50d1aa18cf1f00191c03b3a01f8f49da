@@ -1,0 +1,20 @@
+package com.towerhobbies.TestBase;
+
+import com.gargoylesoftware.htmlunit.javascript.host.file.File;
+
+public class UseExcel 
+{
+
+	public static void main(String args[])
+	{
+		try 
+		{
+			File file = new File("C:\\Users\\ankur.rana\\Downloads\\testcase.xlsx");
+			
+		}
+		catch(Exception e)
+		{
+			
+		}
+	}
+}

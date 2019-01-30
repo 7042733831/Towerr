@@ -1,0 +1,34 @@
+package com.towerhobbies.HomePage;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import com.towerhobbies.TestBase.TestBase;
+
+
+public class HomePage extends TestBase
+{
+	/*@Test
+	public void HomePageLayout()
+	{
+		getBrowser("chrome");
+		driver.get("https://www-dev.towerhobbies.de");
+		driver.manage().window().maximize();
+				
+		
+	}
+*/	
+	@Test
+	public void ExcelData()
+	{
+		getBrowser("chrome");
+		driver.get("https://www-dev.towerhobbies.de");
+		driver.manage().window().maximize();
+		driver.findElement(By.id("SignInLink")).click();
+		driver.findElement(By.name("logonId")).sendKeys("emailcheck1@gmx.com");
+		driver.findElement(By.name("logonPassword")).sendKeys("ankur123");
+		driver.findElement(By.linkText("Anmelden")).click();
+		
+	}
+
+}
