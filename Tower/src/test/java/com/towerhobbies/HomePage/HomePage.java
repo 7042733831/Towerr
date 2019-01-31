@@ -10,36 +10,39 @@ import com.towerhobbies.TestBase.TestBase;
 
 public class HomePage extends TestBase
 {
-	//RegistrationPage registration = new RegistrationPage(driver);
 	
-	/*@BeforeTest
+	
+	@BeforeTest
 	public void beforeTest()
 	{
 		getBrowser("chrome");
-		driver.get("https://www-dev.towerhobbies.de");
+		driver.get("https://www-stg.towerhobbies.de");
 		driver.manage().window().maximize();
-	}*/
-	
+		
+	}
+	/*
 	@Test(priority = 0)
 	public void Registration()
 	{
-		getBrowser("chrome");
-		driver.get("https://www-dev.towerhobbies.de");
-		driver.manage().window().maximize();
 		RegistrationPage registration = new RegistrationPage(driver);
 		registration._register();
 		
-	}
+	}*/
 	
-	@Test(priority = 1)
+	/*@Test(priority = 1)
 	public void SignIn()
-	{
-		getBrowser("chrome");
-		driver.get("https://www-dev.towerhobbies.de");
-		driver.manage().window().maximize();
+	{   
 		RegistrationPage registration = new RegistrationPage(driver);
 		registration._signIn();
-	}
+	}*/
 
-	
+	@Test
+	public void WishList()
+	{
+		RegistrationPage registration = new RegistrationPage(driver);
+		registration._signIn();
+		registration._wishList();
+		
+		
+	}
 }

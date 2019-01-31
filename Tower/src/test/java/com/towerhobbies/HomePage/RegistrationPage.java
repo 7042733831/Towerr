@@ -1,8 +1,13 @@
 package com.towerhobbies.HomePage;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -16,11 +21,12 @@ public class RegistrationPage extends TestBase
 {
 	WebDriver driver;
 	
-	@FindBy(linkText="Anmelden/Registrieren")
+	
+	@FindBy(id="SignInLink")
 	public WebElement uiSignInRegisterLink;
 	
-	@FindBy(linkText="Registrieren")
-	public WebElement uiRegisterClick;
+	@FindBy(xpath="//*[@id=\"WC_AccountDisplay_div_24\"]/a")
+	public WebElement uiRegisterButton;
 
 	@FindBy(name="logonId")
 	public WebElement uiEmailIdImput;
@@ -76,8 +82,38 @@ public class RegistrationPage extends TestBase
 	@FindBy(name="logonPassword")
 	public WebElement uiSignInPasswordInput;
 	
-	@FindBy(linkText="Anmelden")
+	@FindBy(id="WC_AccountDisplay_links_2")
 	public WebElement uiSignInButton;
+	
+	@FindBy(id="SimpleSearchForm_SearchTerm")
+	public WebElement uiSearchTextBox;
+	
+	@FindBy(linkText="Zur Wunschliste hinzufügen")
+	public WebElement uiAddToWishlistLink;
+	
+	@FindBy(id="ShoppingListLink_0")
+	public WebElement uiCreateAWishlistLink;
+	
+	@FindBy(id="newListName")
+    public WebElement uiNewWishListTextBox;	
+	
+	@FindBy(id="CreateShoppingListPopup_div_create_save")
+	public WebElement uiWishlistSaveButton;
+	
+    @FindBy(xpath = "//*[contains(@id, 'shoppingListCreateSuccessPopup')]")
+    public WebElement uiContinueShoppingButton;
+    
+    @FindBy(id="shoppingListCreateSuccessPopup_close")
+    public WebElement uiWishlistPopupClose;
+    
+    @FindBy(id="ShoppingListDisplayLink")
+    public WebElement uiWishlistButton;
+    
+    
+    
+    
+    
+    
 	
 	
 	
@@ -92,8 +128,8 @@ public class RegistrationPage extends TestBase
 	{
 		
 		this.uiSignInRegisterLink.click();
-	    this.uiRegisterClick.click();
-		this.uiEmailIdImput.sendKeys("adam.john2@gmx.com");
+	    this.uiRegisterButton.click();
+		this.uiEmailIdImput.sendKeys("adam.john4@gmx.com");
 		this.uiPasswordInput.sendKeys("ankur123");
 		this.uiPasswordVerifyInput.sendKeys("ankur123");
 		this.uiFirstNameInput.sendKeys("Adam");
@@ -121,9 +157,32 @@ public class RegistrationPage extends TestBase
 	{
 		
 		this.uiSignInRegisterLink.click();
-		this.uiSignInIdInput.sendKeys("adam.john1@gmx.com");
+		this.uiSignInIdInput.sendKeys("adam.john4@gmx.com");
 		this.uiSignInPasswordInput.sendKeys("ankur123");
 		this.uiSignInButton.click();
+		
+	}
+	
+	public void _wishList()
+	{
+		
+		this.uiSearchTextBox.sendKeys("BLH4000");
+		this.uiSearchTextBox.sendKeys(Keys.ENTER);
+		this.uiAddToWishlistLink.click();
+		this.uiCreateAWishlistLink.click();
+		this.uiNewWishListTextBox.sendKeys("Test26");
+		this.uiWishlistSaveButton.click();
+		//String myWindowHandle = driver.getWindowHandle();
+		//driver.switchTo().window(myWindowHandle);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Alert alert = driver.switchTo().alert();
+	    alert.dismiss();
+	    //this.uiContinueShoppingButton.sendKeys(Keys.ENTER);
+		//Actions action = new Actions(driver);
+	    //action.sendKeys(Keys.ESCAPE).build().perform();
+		//this.uiWishlistPopupClose.click();
+		
+		
 		
 	}
 	

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.towerhobbies.HomePage.HomePage">
         <methods>
-          <include name="SignIn"/>
-          <include name="Registration"/>
+          <include name="WishList"/>
+          <include name="beforeTest"/>
         </methods>
       </class> <!-- com.towerhobbies.HomePage.HomePage -->
     </classes>
