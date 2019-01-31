@@ -35,7 +35,7 @@ public class HomePage extends TestBase
 		RegistrationPage registration = new RegistrationPage(driver);
 		registration._signIn();
 	}*/
-
+/*
 	@Test
 	public void WishList()
 	{
@@ -44,5 +44,19 @@ public class HomePage extends TestBase
 		registration._wishList();
 		
 		
+	}*/
+	
+	/*@Test
+	public void Quickinfo()
+	{
+		RegistrationPage registration = new RegistrationPage(driver);
+		registration._quickInfo();
+	}*/
+	
+	@Test
+	public void ProductPage()
+	{
+		RegistrationPage registration = new RegistrationPage(driver);
+		registration._productPage();
 	}
 }

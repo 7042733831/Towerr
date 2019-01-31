@@ -1320,3 +1320,181 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.beanshell
 2019-01-31 11:42:54,455 [Worker-983: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
 2019-01-31 11:42:54,456 [Worker-983: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-01-31 11:42:54,456 [Worker-983: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:06:21,621 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:06:21,621 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:06:21,621 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:06:21,621 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:06:22,651 [Worker-996: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:06:22,651 [Worker-996: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:06:22,651 [Worker-996: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:06:22,651 [Worker-996: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:07:35,312 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:07:35,312 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:07:35,312 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:07:35,312 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:09:36,661 [Worker-993: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:09:36,661 [Worker-993: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:09:36,661 [Worker-993: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:09:36,661 [Worker-993: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:09:37,740 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:09:37,740 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:09:37,740 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:09:37,740 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:15:11,057 [Worker-1000: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:15:11,073 [Worker-1000: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:15:11,073 [Worker-1000: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:15:11,073 [Worker-1000: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:15:12,090 [Worker-999: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:15:12,090 [Worker-999: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:15:12,090 [Worker-999: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:15:12,090 [Worker-999: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:16:31,958 [Worker-989: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:16:31,958 [Worker-989: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:16:31,960 [Worker-989: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:16:31,960 [Worker-989: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:16:32,983 [Worker-1002: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:16:32,984 [Worker-1002: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:16:32,984 [Worker-1002: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:16:32,984 [Worker-1002: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:21:23,106 [Worker-1004: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:21:23,106 [Worker-1004: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:21:23,106 [Worker-1004: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:21:23,107 [Worker-1004: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:21:24,150 [Worker-1005: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:21:24,150 [Worker-1005: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:21:24,151 [Worker-1005: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:21:24,151 [Worker-1005: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:23:29,657 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:23:29,657 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:23:29,658 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:23:29,658 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:23:30,685 [Worker-1003: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:23:30,685 [Worker-1003: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:23:30,686 [Worker-1003: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:23:30,686 [Worker-1003: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:32:17,587 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:32:17,588 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:32:17,588 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:32:17,588 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:32:18,612 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:32:18,612 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:32:18,613 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:32:18,613 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:33:10,937 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:33:10,937 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:33:10,938 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:33:10,939 [Worker-1008: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:33:12,010 [Worker-1009: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:33:12,010 [Worker-1009: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:33:12,011 [Worker-1009: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:33:12,011 [Worker-1009: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:33:16,902 [Worker-1007: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:33:16,903 [Worker-1007: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:33:16,903 [Worker-1007: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:33:16,903 [Worker-1007: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:40:33,029 [Worker-1010: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:40:33,029 [Worker-1010: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:40:33,030 [Worker-1010: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:40:33,030 [Worker-1010: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:40:34,103 [Worker-1012: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:40:34,103 [Worker-1012: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:40:34,104 [Worker-1012: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:40:34,104 [Worker-1012: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:53:44,750 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:53:44,755 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:53:44,758 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:53:44,758 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:54:36,012 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:54:36,012 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:54:36,013 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:54:36,013 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:54:39,091 [Worker-12: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-01-31 13:55:03,358 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:55:03,358 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:55:03,360 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:55:03,360 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 13:58:43,790 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:58:43,791 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 13:58:43,792 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 13:58:43,797 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 14:00:12,875 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:00:12,876 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 14:00:12,877 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:00:12,878 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 14:58:27,799 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:58:27,799 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 14:58:27,801 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:58:27,801 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 14:59:58,117 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:59:58,118 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 14:59:58,120 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:59:58,120 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:04:10,062 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:04:10,066 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:04:10,069 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:04:10,069 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:04:11,068 [Worker-13: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-01-31 15:05:50,945 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:05:50,945 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:05:50,947 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:05:50,947 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:08:10,752 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:08:10,752 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:08:10,753 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:08:10,754 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:22:21,307 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:22:21,307 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:22:21,308 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:22:21,309 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:24:38,135 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:24:38,135 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:24:38,136 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:24:38,136 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:24:51,678 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:24:51,679 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:24:51,680 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:24:51,681 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:26:20,397 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:26:20,398 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:26:20,399 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:26:20,399 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:49:32,364 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:49:32,364 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:49:32,367 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:49:32,367 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 15:50:55,712 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:50:55,712 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 15:50:55,713 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 15:50:55,713 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 16:01:26,648 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 16:01:26,649 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 16:01:26,650 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 16:01:26,650 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 16:30:17,848 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 16:30:17,848 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 16:30:17,848 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 16:30:17,848 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 18:19:33,502 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:19:33,502 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 18:19:33,502 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:19:33,502 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 18:19:43,461 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:19:43,461 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 18:19:43,461 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:19:43,461 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 18:20:30,085 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:20:30,085 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 18:20:30,085 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:20:30,085 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 18:20:47,085 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:20:47,085 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 18:20:47,085 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:20:47,085 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 18:21:07,207 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:21:07,207 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 18:21:07,207 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:21:07,207 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources
+2019-01-31 18:23:01,982 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:23:01,982 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\main\resources
+2019-01-31 18:23:01,982 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 18:23:01,982 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ankur.rana\framework-workspace\Tower\src\test\resources

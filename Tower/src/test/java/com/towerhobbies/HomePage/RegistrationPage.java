@@ -1,5 +1,6 @@
 package com.towerhobbies.HomePage;
 
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
@@ -109,10 +110,38 @@ public class RegistrationPage extends TestBase
     @FindBy(id="ShoppingListDisplayLink")
     public WebElement uiWishlistButton;
     
+    @FindBy(linkText="Weiter einkaufen")
+    public WebElement uiContinueShoppingText;
     
+    @FindBy(id="quantity_297559")
+    public WebElement uiQuantityTextBox;
     
+    @FindBy(id="add2CartBtn")
+    public WebElement uiAddToCartButton;
     
+    @FindBy(className="close")
+    public WebElement uiMiniCartCloseLink;
     
+    @FindBy(id="shareIconLink")
+    public WebElement uiShareIconLink;
+    
+    @FindBy(id="shareDialoguePopup_close")
+    public WebElement uiShareDialoguePopuoCloseLink;
+    
+    @FindBy(id="PrintIconLink")
+    public WebElement uiPrintIconLink;
+    
+    @FindBy(linkText="abbrechen")
+    public WebElement uiPrintCancelButton;
+    
+    @FindBy(id="tab_specs")
+    public WebElement uiSpecificationTab;
+    
+    @FindBy(id="tab_parts")
+    public WebElement uiPartsTab;
+    
+    @FindBy(id="tab_support")
+    public WebElement uiSupportTab;
     
 	
 	
@@ -170,21 +199,66 @@ public class RegistrationPage extends TestBase
 		this.uiSearchTextBox.sendKeys(Keys.ENTER);
 		this.uiAddToWishlistLink.click();
 		this.uiCreateAWishlistLink.click();
-		this.uiNewWishListTextBox.sendKeys("Test26");
+		this.uiNewWishListTextBox.sendKeys("Test28");
 		this.uiWishlistSaveButton.click();
-		//String myWindowHandle = driver.getWindowHandle();
-		//driver.switchTo().window(myWindowHandle);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		Alert alert = driver.switchTo().alert();
-	    alert.dismiss();
-	    //this.uiContinueShoppingButton.sendKeys(Keys.ENTER);
-		//Actions action = new Actions(driver);
-	    //action.sendKeys(Keys.ESCAPE).build().perform();
-		//this.uiWishlistPopupClose.click();
-		
-		
-		
+	    this.uiContinueShoppingText.click();
+	
 	}
 	
+	 public void _quickInfo() 
+	 {
+	
+		 this.uiSearchTextBox.sendKeys("RTF");
+		 this.uiSearchTextBox.sendKeys(Keys.ENTER);
+		 Actions action = new Actions(driver);
+		 action.moveToElement(driver.findElement(By.className("product_image"))).build().perform();
+		 driver.findElement(By.className("quick_info_toggle")).click();
+		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		 
+		 driver.findElement(By.linkText("In den Warenkorb")).click();
+		//Control Getting back to Parent window by closing child window
+			/*String parentWindow = driver.getWindowHandle();
+			Set<String> handles =  driver.getWindowHandles();
+			   for(String windowHandle  : handles)
+			       {
+			       if(!windowHandle.equals(parentWindow))
+			          {
+			          driver.switchTo().window(windowHandle);
+			          driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			          driver.findElement(By.id("add2CartBtn")).click();
+			          driver.findElement(By.id("QuickInfoaddToShoppingList")).click();
+	   		         driver.close(); //closing child window
+			         driver.switchTo().window(parentWindow); //cntrl to parent window
+			          }
+			       }*/
+		// driver.findElement(By.id("add2CartBtn")).click();
+		//driver.findElement(By.className("button btnAddToCart expand")).click();
+		
+		 
+	 }
+	 
+	 public void _productPage()
+	 
+	 {
+		 this.uiSearchTextBox.sendKeys("HAN4540");
+		 this.uiSearchTextBox.sendKeys(Keys.ENTER);
+		 this.uiShareIconLink.click();
+		 this.uiShareDialoguePopuoCloseLink.click();
+		 this.uiPrintIconLink.click();
+		 this.uiPrintCancelButton.click();
+		 this.uiQuantityTextBox.sendKeys("2");
+		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		 this.uiAddToCartButton.click();
+		 this.uiMiniCartCloseLink.click();
+		 this.uiAddToWishlistLink.click();
+		 this.uiSpecificationTab.click();
+		 this.uiPartsTab.click();
+		 this.uiSupportTab.click();
+		 
+		 
+		 
+		 
+	 }
    
 }
