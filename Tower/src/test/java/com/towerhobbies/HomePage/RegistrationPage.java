@@ -116,7 +116,7 @@ public class RegistrationPage extends TestBase
     @FindBy(id="quantity_297559")
     public WebElement uiQuantityTextBox;
     
-    @FindBy(id="add2CartBtn")
+    @FindBy(linkText="In den Warenkorb")
     public WebElement uiAddToCartButton;
     
     @FindBy(className="close")
@@ -247,6 +247,7 @@ public class RegistrationPage extends TestBase
 		 this.uiShareDialoguePopuoCloseLink.click();
 		 this.uiPrintIconLink.click();
 		 this.uiPrintCancelButton.click();
+		 this.uiQuantityTextBox.clear();
 		 this.uiQuantityTextBox.sendKeys("2");
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 this.uiAddToCartButton.click();

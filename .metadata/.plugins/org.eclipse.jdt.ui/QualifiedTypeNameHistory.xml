@@ -21,5 +21,7 @@
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="org.apache.xmlbeans.impl.xb.xsdschema.ListDocument.List"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.javascript.host.Set"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>
