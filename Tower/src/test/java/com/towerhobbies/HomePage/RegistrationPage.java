@@ -1,10 +1,12 @@
 package com.towerhobbies.HomePage;
 
+import java.util.ArrayList;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +14,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.gargoylesoftware.htmlunit.WebConsole.Logger;
@@ -89,7 +93,7 @@ public class RegistrationPage extends TestBase
 	@FindBy(id="SimpleSearchForm_SearchTerm")
 	public WebElement uiSearchTextBox;
 	
-	@FindBy(linkText="Zur Wunschliste hinzufügen")
+	@FindBy(id="addToShoppingList")
 	public WebElement uiAddToWishlistLink;
 	
 	@FindBy(id="ShoppingListLink_0")
@@ -199,7 +203,7 @@ public class RegistrationPage extends TestBase
 		this.uiSearchTextBox.sendKeys(Keys.ENTER);
 		this.uiAddToWishlistLink.click();
 		this.uiCreateAWishlistLink.click();
-		this.uiNewWishListTextBox.sendKeys("Test28");
+		this.uiNewWishListTextBox.sendKeys("Test001");
 		this.uiWishlistSaveButton.click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	    this.uiContinueShoppingText.click();
@@ -217,6 +221,13 @@ public class RegistrationPage extends TestBase
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 
 		 driver.findElement(By.linkText("In den Warenkorb")).click();
+		 driver.findElement(By.linkText("Zum Einkaufskorb gehen")).click();
+		 
+		 String s = driver.getTitle();
+		 Assert.assertEquals(s,"Einkaufskrb","Title is correct");
+		
+		 
+		 
 		//Control Getting back to Parent window by closing child window
 			/*String parentWindow = driver.getWindowHandle();
 			Set<String> handles =  driver.getWindowHandles();
@@ -255,7 +266,24 @@ public class RegistrationPage extends TestBase
 		 this.uiAddToWishlistLink.click();
 		 this.uiSpecificationTab.click();
 		 this.uiPartsTab.click();
-		 this.uiSupportTab.click();
+	     this.uiSupportTab.click();
+		
+		 
+		 
+	 }
+	 
+	 public void _twoSeperateWindow()
+	 {
+		
+		 driver.get("https://www.horizonhobby.com");
+		 ((JavascriptExecutor)driver).executeScript("window.open()");
+		 ((JavascriptExecutor)driver).executeScript("window.open()");
+		 ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		 driver.switchTo().window(tabs.get(1));
+		 driver.get("http://google.com");
+		 driver.findElement(By.id("q")).sendKeys("Horizonhobby");
+		 Reporter.log("passed");
+		 
 		 
 		 
 		 

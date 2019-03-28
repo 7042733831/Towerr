@@ -40,5 +40,8 @@
 	<classpathentry kind="lib" path="C:/Users/ankur.rana/Downloads/jxl-2.6.jar/jxl-2.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ankur.rana/Downloads/db2jcc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ankur.rana/Downloads/chromedriver_win32.zip"/>
+	<classpathentry kind="lib" path="C:/Users/ankur.rana/Downloads/reportng-1.1.4.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/ankur.rana/Downloads/guice-master.zip"/>
+	<classpathentry kind="lib" path="C:/Users/ankur.rana/Downloads/velocity-dep-1.4.jar.zip"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -20,22 +20,22 @@ public class HomePage extends TestBase
 		driver.manage().window().maximize();
 		
 	}
-	/*
-	@Test(priority = 0)
+	
+	/*@Test(priority = 0)
 	public void Registration()
 	{
 		RegistrationPage registration = new RegistrationPage(driver);
 		registration._register();
 		
-	}*/
+	}
 	
-	/*@Test(priority = 1)
+	@Test(priority = 1)
 	public void SignIn()
 	{   
 		RegistrationPage registration = new RegistrationPage(driver);
 		registration._signIn();
-	}*/
-/*
+	}
+
 	@Test
 	public void WishList()
 	{
@@ -46,17 +46,25 @@ public class HomePage extends TestBase
 		
 	}*/
 	
-	/*@Test
-	public void Quickinfo()
+	@Test
+	public void QuickInfo()
 	{
 		RegistrationPage registration = new RegistrationPage(driver);
 		registration._quickInfo();
-	}*/
+	}
 	
-	@Test
+	/*@Test
 	public void ProductPage()
 	{
 		RegistrationPage registration = new RegistrationPage(driver);
 		registration._productPage();
-	}
+	}*/
+	
+	/*@Test
+	public void TwoSeperateWindow()
+	{
+		RegistrationPage registration = new RegistrationPage(driver);
+		registration._twoSeperateWindow();
+		
+	}*/
 }

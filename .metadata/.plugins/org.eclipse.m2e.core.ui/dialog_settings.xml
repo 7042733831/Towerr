@@ -22,6 +22,14 @@
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="480" key="width"/>
@@ -42,6 +50,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ankur.rana\framework-workspace\Tower"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -54,12 +63,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.towerhobbies.MavenProject"/>
+			<item value="com.towerhobbies"/>
 			<item value="com.towerhobbies.Tower"/>
 		</list>
 		<list key="groupId">
 			<item value="com.towerhobbies"/>
 		</list>
 		<list key="artifactId">
+			<item value="MavenProject"/>
 			<item value="Tower"/>
 		</list>
 		<list key="projectNameTemplate">

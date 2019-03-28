@@ -6,7 +6,7 @@
       <class name="com.towerhobbies.HomePage.HomePage">
         <methods>
           <include name="beforeTest"/>
-          <include name="ProductPage"/>
+          <include name="QuickInfo"/>
         </methods>
       </class> <!-- com.towerhobbies.HomePage.HomePage -->
     </classes>

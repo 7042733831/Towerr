@@ -14,5 +14,10 @@
 			<type>2</type>
 			<location>C:/Users/ankur.rana/eclipse/java-2018-09/eclipse/configuration/org.eclipse.osgi/529/0/.cp</location>
 		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/Users/ankur.rana/.m2/repository</location>
+		</link>
 	</linkedResources>
 </projectDescription>
